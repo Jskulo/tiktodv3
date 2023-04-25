@@ -25,7 +25,7 @@ print("1. Viewbot.\n2. Heartbot.\n3. Followerbot.\n3. Sharebot.\n4. Credits.\n")
 auto = int(input("Mode: "))
 
 if auto == 1 or auto == 2 or auto == 3 or auto == 4:
-    vidUrl = input("TikTok video URL: ")
+    vidUrl = input("https://www.tiktok.com/@driouokqvrf/video/7214198288327675163?is_from_webapp=1&sender_device=pc&web_id=7223797108117046810")
 
     start = time()
     time_elapsed = strftime('%H:%M:%S', gmtime(time() - start))
